@@ -1,6 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,300;8..144,700;8..144,800&display=swap');
+
+* {
+    font-family: 'Roboto Flex', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
 body {
     display: flex;
     flex-direction: column;
+}
+
+.blockone, .footer {
+
+    background-color: #1F2937;
+
+}
+
+.headleft, .herosection h1 {
+    color: #F9FAF8;
+}
+
+.headleft {
+    font-size: 24px;
+}
+
+.herosection h1{
+    font-size: 48px;
+}
+
+.blocktwo h2, .quote{
+
+    color:#1F2937;
+}
+
+.herosection p, .headright li a{
+    color: #E5E7EB;
 }
 
 .header{
@@ -18,7 +53,6 @@ ul {
 
 a {
     text-decoration: none;
-    color: lightgray;
 }
 
 .blockone {
@@ -61,4 +95,14 @@ a {
     border-radius: 4px;
     padding: 10px;
     margin: 10px;
+}
+
+button {
+    background-color: #E5E7EB;
+}
+
+.quote p{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
 }
